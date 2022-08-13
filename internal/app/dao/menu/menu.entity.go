@@ -5,9 +5,9 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/util"
-	"github.com/LyricTian/gin-admin/v8/internal/app/schema"
-	"github.com/LyricTian/gin-admin/v8/pkg/util/structure"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/util"
+	"github.com/morezig/teambuy_admin/v8/internal/app/schema"
+	"github.com/morezig/teambuy_admin/v8/pkg/util/structure"
 )
 
 func GetMenuDB(ctx context.Context, defDB *gorm.DB) *gorm.DB {

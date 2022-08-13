@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app"
-	"github.com/LyricTian/gin-admin/v8/internal/app/config"
 	"github.com/gin-gonic/gin"
+	"github.com/morezig/teambuy_admin/v8/internal/app"
+	"github.com/morezig/teambuy_admin/v8/internal/app/config"
 )
 
 const (

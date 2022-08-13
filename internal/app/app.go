@@ -12,12 +12,12 @@ import (
 
 	"github.com/LyricTian/captcha"
 	"github.com/LyricTian/captcha/store"
-	"github.com/LyricTian/gin-admin/v8/internal/app/config"
-	"github.com/LyricTian/gin-admin/v8/pkg/logger"
 	"github.com/go-redis/redis"
 	"github.com/google/gops/agent"
+	"github.com/morezig/teambuy_admin/v8/internal/app/config"
+	"github.com/morezig/teambuy_admin/v8/pkg/logger"
 
-	_ "github.com/LyricTian/gin-admin/v8/internal/app/swagger"
+	_ "github.com/morezig/teambuy_admin/v8/internal/app/swagger"
 )
 
 type options struct {

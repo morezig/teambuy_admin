@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/LyricTian/gin-admin/v8/pkg/util/json"
+	"github.com/morezig/teambuy_admin/v8/pkg/util/json"
 )
 
 // Menu 菜单对象

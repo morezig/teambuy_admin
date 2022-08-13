@@ -9,10 +9,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app/schema"
-	"github.com/LyricTian/gin-admin/v8/pkg/errors"
-	"github.com/LyricTian/gin-admin/v8/pkg/logger"
-	"github.com/LyricTian/gin-admin/v8/pkg/util/json"
+	"github.com/morezig/teambuy_admin/v8/internal/app/schema"
+	"github.com/morezig/teambuy_admin/v8/pkg/errors"
+	"github.com/morezig/teambuy_admin/v8/pkg/logger"
+	"github.com/morezig/teambuy_admin/v8/pkg/util/json"
 )
 
 const (

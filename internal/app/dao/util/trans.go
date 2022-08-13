@@ -3,8 +3,8 @@ package util
 import (
 	"context"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app/contextx"
 	"github.com/google/wire"
+	"github.com/morezig/teambuy_admin/v8/internal/app/contextx"
 	"gorm.io/gorm"
 )
 

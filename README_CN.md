@@ -43,7 +43,7 @@ go get -u github.com/swaggo/swag/cmd/swag
 > 也可以使用国内源：https://gitee.com/lyric/gin-admin
 
 ```bash
-$ git clone https://github.com/LyricTian/gin-admin
+$ git clone https://github.com/morezig/teambuy_admin
 
 $ cd gin-admin
 
@@ -198,9 +198,9 @@ export CGO_ENABLED=1; export CC=gcc; go get -v -x github.com/mattn/go-sqlite3
 
     Copyright (c) 2021 Lyric
 
-[reportcard-url]: https://goreportcard.com/report/github.com/LyricTian/gin-admin
-[reportcard-image]: https://goreportcard.com/badge/github.com/LyricTian/gin-admin
-[godoc-url]: https://pkg.go.dev/github.com/LyricTian/gin-admin/v8
-[godoc-image]: https://godoc.org/github.com/LyricTian/gin-admin?status.svg
+[reportcard-url]: https://goreportcard.com/report/github.com/morezig/teambuy_admin
+[reportcard-image]: https://goreportcard.com/badge/github.com/morezig/teambuy_admin
+[godoc-url]: https://pkg.go.dev/github.com/morezig/teambuy_admin/v8
+[godoc-image]: https://godoc.org/github.com/morezig/teambuy_admin?status.svg
 [license-url]: http://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/express.svg

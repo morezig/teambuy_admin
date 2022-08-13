@@ -3,9 +3,9 @@ package middleware
 import (
 	"time"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app/config"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	"github.com/morezig/teambuy_admin/v8/internal/app/config"
 )
 
 func CORSMiddleware() gin.HandlerFunc {

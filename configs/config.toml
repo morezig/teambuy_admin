@@ -171,7 +171,7 @@ ExcludedPaths = []
 # 是否开启调试模式
 Debug = true
 # 数据库类型(目前支持的数据库类型：mysql/sqlite3/postgres)
-DBType = "sqlite3"
+DBType = "postgres"
 # 设置连接可以重用的最长时间(单位：秒)
 MaxLifetime = 7200
 # 设置数据库的最大打开连接数
@@ -189,11 +189,11 @@ Host = "127.0.0.1"
 # 连接端口
 Port = 3306
 # 用户名
-User = "root"
+User = "biznavi"
 # 密码
-Password = "123456"
+Password = "1qaz@WSX"
 # 数据库
-DBName = "gin-admin"
+DBName = "mz_teambuy_lai"
 # 连接参数
 Parameters = "charset=utf8mb4&parseTime=True&loc=Local&allowNativePasswords=true"
 
@@ -203,11 +203,11 @@ Host = "127.0.0.1"
 # 连接端口
 Port = 5432
 # 用户名
-User = "root"
+User = "biznavi"
 # 密码
-Password = "123456"
+Password = "1qaz@WSX"
 # 数据库
-DBName = "gin-admin"
+DBName = "mz_teambuy_lai"
 # SSL模式
 SSLMode = "disable"
 

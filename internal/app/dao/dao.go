@@ -6,11 +6,11 @@ import (
 	"github.com/google/wire"
 	"gorm.io/gorm"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app/config"
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/menu"
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/role"
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/user"
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/util"
+	"github.com/morezig/teambuy_admin/v8/internal/app/config"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/menu"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/role"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/user"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/util"
 ) // end
 
 // RepoSet repo injection

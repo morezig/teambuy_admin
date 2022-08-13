@@ -7,11 +7,11 @@ import (
 	"github.com/casbin/casbin/v2"
 	"github.com/google/wire"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao"
-	"github.com/LyricTian/gin-admin/v8/internal/app/schema"
-	"github.com/LyricTian/gin-admin/v8/pkg/errors"
-	"github.com/LyricTian/gin-admin/v8/pkg/util/hash"
-	"github.com/LyricTian/gin-admin/v8/pkg/util/snowflake"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao"
+	"github.com/morezig/teambuy_admin/v8/internal/app/schema"
+	"github.com/morezig/teambuy_admin/v8/pkg/errors"
+	"github.com/morezig/teambuy_admin/v8/pkg/util/hash"
+	"github.com/morezig/teambuy_admin/v8/pkg/util/snowflake"
 )
 
 var UserSet = wire.NewSet(wire.Struct(new(UserSrv), "*"))

@@ -36,7 +36,7 @@ go get -u github.com/swaggo/swag/cmd/swag
 ## Getting Started
 
 ```bash
-git clone https://github.com/LyricTian/gin-admin
+git clone https://github.com/morezig/teambuy_admin
 
 cd gin-admin
 
@@ -91,7 +91,7 @@ fields:
 ### Execute `generate` command
 
 ```bash
-gin-admin-cli g -d . -p github.com/LyricTian/gin-admin/v8 -f ./task.yaml
+gin-admin-cli g -d . -p github.com/morezig/teambuy_admin/v8 -f ./task.yaml
 
 make swagger
 
@@ -155,9 +155,9 @@ make start
 
     Copyright (c) 2021 Lyric
 
-[reportcard-url]: https://goreportcard.com/report/github.com/LyricTian/gin-admin
-[reportcard-image]: https://goreportcard.com/badge/github.com/LyricTian/gin-admin
-[godoc-url]: https://pkg.go.dev/github.com/LyricTian/gin-admin/v8
-[godoc-image]: https://godoc.org/github.com/LyricTian/gin-admin?status.svg
+[reportcard-url]: https://goreportcard.com/report/github.com/morezig/teambuy_admin
+[reportcard-image]: https://goreportcard.com/badge/github.com/morezig/teambuy_admin
+[godoc-url]: https://pkg.go.dev/github.com/morezig/teambuy_admin/v8
+[godoc-image]: https://godoc.org/github.com/morezig/teambuy_admin?status.svg
 [license-url]: http://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/express.svg

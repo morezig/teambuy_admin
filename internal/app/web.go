@@ -6,9 +6,9 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 	swaggerFiles "github.com/swaggo/gin-swagger/swaggerFiles"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app/config"
-	"github.com/LyricTian/gin-admin/v8/internal/app/middleware"
-	"github.com/LyricTian/gin-admin/v8/internal/app/router"
+	"github.com/morezig/teambuy_admin/v8/internal/app/config"
+	"github.com/morezig/teambuy_admin/v8/internal/app/middleware"
+	"github.com/morezig/teambuy_admin/v8/internal/app/router"
 )
 
 func InitGinEngine(r router.IRouter) *gin.Engine {

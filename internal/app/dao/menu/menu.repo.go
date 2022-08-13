@@ -6,9 +6,9 @@ import (
 	"github.com/google/wire"
 	"gorm.io/gorm"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/util"
-	"github.com/LyricTian/gin-admin/v8/internal/app/schema"
-	"github.com/LyricTian/gin-admin/v8/pkg/errors"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/util"
+	"github.com/morezig/teambuy_admin/v8/internal/app/schema"
+	"github.com/morezig/teambuy_admin/v8/pkg/errors"
 )
 
 var MenuSet = wire.NewSet(wire.Struct(new(MenuRepo), "*"))

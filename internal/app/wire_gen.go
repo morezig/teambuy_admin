@@ -6,18 +6,18 @@
 package app
 
 import (
-	"github.com/LyricTian/gin-admin/v8/internal/app/api"
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/menu"
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/role"
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/user"
-	"github.com/LyricTian/gin-admin/v8/internal/app/dao/util"
-	"github.com/LyricTian/gin-admin/v8/internal/app/module/adapter"
-	"github.com/LyricTian/gin-admin/v8/internal/app/router"
-	"github.com/LyricTian/gin-admin/v8/internal/app/service"
+	"github.com/morezig/teambuy_admin/v8/internal/app/api"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/menu"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/role"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/user"
+	"github.com/morezig/teambuy_admin/v8/internal/app/dao/util"
+	"github.com/morezig/teambuy_admin/v8/internal/app/module/adapter"
+	"github.com/morezig/teambuy_admin/v8/internal/app/router"
+	"github.com/morezig/teambuy_admin/v8/internal/app/service"
 )
 
 import (
-	_ "github.com/LyricTian/gin-admin/v8/internal/app/swagger"
+	_ "github.com/morezig/teambuy_admin/v8/internal/app/swagger"
 )
 
 // Injectors from wire.go:

@@ -6,12 +6,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/LyricTian/gin-admin/v8/internal/app/config"
-	"github.com/LyricTian/gin-admin/v8/internal/app/contextx"
-	"github.com/LyricTian/gin-admin/v8/internal/app/ginx"
-	"github.com/LyricTian/gin-admin/v8/pkg/auth"
-	"github.com/LyricTian/gin-admin/v8/pkg/errors"
-	"github.com/LyricTian/gin-admin/v8/pkg/logger"
+	"github.com/morezig/teambuy_admin/v8/internal/app/config"
+	"github.com/morezig/teambuy_admin/v8/internal/app/contextx"
+	"github.com/morezig/teambuy_admin/v8/internal/app/ginx"
+	"github.com/morezig/teambuy_admin/v8/pkg/auth"
+	"github.com/morezig/teambuy_admin/v8/pkg/errors"
+	"github.com/morezig/teambuy_admin/v8/pkg/logger"
 )
 
 func wrapUserAuthContext(c *gin.Context, userID uint64, userName string) {
